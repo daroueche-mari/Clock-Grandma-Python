@@ -23,17 +23,17 @@ print("Dates and Hours of Today:", show)
 print('-----------------------------------------')
 print('Second Exercice :')
 import time
-def show_info(hours, minutes, seconds):
+def show_hour(hours, minutes, seconds):
     print("The Hour", hours,":", minutes,":", seconds)
-show_info(15, 10, 55)
+show_hour(15, 10, 55)
 time.sleep(1)
-show_info(15, 10, 56)
+show_hour(15, 10, 56)
 time.sleep(1)
-show_info(15, 10, 57)
+show_hour(15, 10, 57)
 time.sleep(1)
-show_info(15, 10, 58)
+show_hour(15, 10, 58)
 time.sleep(1)
-show_info(15, 10, 59)
+show_hour(15, 10, 59)
 
 
 # Mamie Jeannine a besoin d’une alarme ! Ajoutez une fonction qui
