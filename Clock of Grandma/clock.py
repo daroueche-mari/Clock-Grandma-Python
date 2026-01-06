@@ -15,7 +15,6 @@ print("Dates and Hours of Today:", show)
 time.sleep(1)
 show = datetime.today()
 print("Dates and Hours of Today:", show)
-time.sleep(1)
 
 # Vous ajoutez une fonction nommée “afficher_heure” qui permet de
 # régler l'heure. Cette fonction devra prendre en paramètre une heure
@@ -35,8 +34,6 @@ time.sleep(1)
 show_info(15, 10, 58)
 time.sleep(1)
 show_info(15, 10, 59)
-time.sleep(1)
-show_info(16, 10, 15)
 
 
 # Mamie Jeannine a besoin d’une alarme ! Ajoutez une fonction qui
@@ -50,7 +47,7 @@ import time
 def setting_alarm(hours, minutes, seconds):
     print("The Hour is", hours,':', minutes,':', seconds)
     if hours == 17 and minutes == 15 and seconds == 50:
-        print("Sonnerie")
+        print("Alarm")
 setting_alarm(15, 10, 55)
 time.sleep(1)
 setting_alarm(18, 25, 30)

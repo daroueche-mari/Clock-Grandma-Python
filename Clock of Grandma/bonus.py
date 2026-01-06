@@ -7,7 +7,7 @@ print('First Exercice Bonus :')
 
 import time
 
-x = '04 : 30 : 15'
+x = '04 : 30 : 15 PM'
 a = '16 : 30 : 15'
 
 def selector(mode):
