@@ -7,14 +7,15 @@ print('First Exercice :')
 
 from datetime import datetime 
 import time
+
 show = datetime.today()
-print("Dates and Hours of Today:", show)
+print("Hour of Today:", show.strftime("%H:%M:%S"))
 time.sleep(1)
 show = datetime.today()
-print("Dates and Hours of Today:", show)
+print("Hour of Today:", show.strftime("%H:%M:%S"))
 time.sleep(1)
 show = datetime.today()
-print("Dates and Hours of Today:", show)
+print("Hour of Today:", show.strftime("%H:%M:%S"))
 
 # Vous ajoutez une fonction nommée “afficher_heure” qui permet de
 # régler l'heure. Cette fonction devra prendre en paramètre une heure
@@ -22,7 +23,9 @@ print("Dates and Hours of Today:", show)
 # jour l'heure affichée grâce à la fonction “afficher_heure”.
 print('-----------------------------------------')
 print('Second Exercice :')
+
 import time
+
 def show_hour(hours, minutes, seconds):
     print("The Hour", hours,":", minutes,":", seconds)
 show_hour(15, 10, 55)
