@@ -5,18 +5,17 @@
 print('-----------------------------------------')
 print('First Exercice Bonus :')
 
+from datetime import datetime
 import time
 
-x = '04 : 30 : 15 PM'
-a = '16 : 30 : 15'
+now = datetime.now()
 
 def selector(mode):
      if mode == 12:
-          print(x)
+          print(now.strftime("%I:%M:%S %p"))
      else:
           if mode == 24:
-               print(a)
-
+               print(now.strftime("%H:%M:%S"))
 selector(12)
 time.sleep(1)
 selector(24)
@@ -29,16 +28,17 @@ selector(24)
 print('-----------------------------------------')
 print('Second Exercice Bonus :')
 
+from datetime import datetime
 import time
 
 
-show = '16 : 50 : 11'
+now = datetime.now()
 
 def stop(trigger):
      if trigger == 1:
           exit()
      else:
-          print(show)
+          print(now.strftime("%H:%M:%S"))
 
 stop(0)
 time.sleep(1)
